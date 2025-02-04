@@ -14,7 +14,7 @@ const users = {
     "bot3": []
 };
 
-/** Tg bot handlers */
+/** Tg bot handlers */X
 bot1.onText(/\/start/, (msg) => {
     const chatId = msg.chat.id;
     if (!users.bot1.includes(chatId)) {
